@@ -18,7 +18,12 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   header: {
-    color: "#fff",
+    flex: 0,
+    color: "#B8860B",
     fontFamily: "GermaniaOne",
+    fontSize: 40,
+    flexWrap: "wrap",
+    textAlign: "center",
+    margin: 10,
   },
 });
