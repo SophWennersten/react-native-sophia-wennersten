@@ -7,8 +7,6 @@ import RandomPhrases from "../components/random-phrases-homescreen";
 export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.container} edges={["top"]}>
-      {/* <Header /> */}
-
       <View style={{ flex: 0.4 }} />
       <View>
         <Pressable
@@ -36,7 +34,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#000",
+    backgroundColor: "transparent",
     alignItems: "center",
   },
   mainContainer: {
