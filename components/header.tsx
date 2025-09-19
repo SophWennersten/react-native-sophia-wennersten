@@ -1,7 +1,12 @@
 import { StyleSheet, Text } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Header() {
-  return <Text style={styles.text}>Daily Reality Check</Text>;
+  return (
+    <SafeAreaView>
+      <Text style={styles.text}>Daily Reality Check</Text>;
+    </SafeAreaView>
+  );
 }
 
 const styles = StyleSheet.create({
@@ -9,7 +14,6 @@ const styles = StyleSheet.create({
     fontSize: 45,
     color: "#B8860B",
     fontFamily: "GermaniaOne",
-    borderBottomColor: "#ffffff62",
-    borderWidth: 1,
+    textAlign: "center",
   },
 });
