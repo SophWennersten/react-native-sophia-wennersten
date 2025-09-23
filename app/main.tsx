@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
-import GetDailyRealityCheck from "../components/homeScreen/haptic-pressable-homeScreen";
+import GetDailyRealityCheck from "../components/haptic-pressable";
 
 export default function MainScreen() {
   return (

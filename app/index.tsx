@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import GetDailyRealityCheck from "../components/homeScreen/haptic-pressable-homeScreen";
+import GetDailyRealityCheck from "../components/haptic-pressable";
 import RandomPhrases from "../components/homeScreen/random-phrases-homescreen";
 
 export default function HomeScreen() {
