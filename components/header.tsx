@@ -1,10 +1,12 @@
-import { StyleSheet, Text } from "react-native";
+import { Pressable, StyleSheet, Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Header() {
   return (
     <SafeAreaView>
-      <Text style={styles.text}>Daily Reality Check</Text>;
+      <Pressable>
+        <Text style={styles.text}>Daily Reality Check</Text>
+      </Pressable>
     </SafeAreaView>
   );
 }

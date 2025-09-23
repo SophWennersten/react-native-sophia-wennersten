@@ -2,7 +2,13 @@ import * as Haptics from "expo-haptics";
 import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
 import React from "react";
-import { ColorValue, Pressable, StyleSheet, ViewStyle } from "react-native";
+import {
+  ColorValue,
+  Pressable,
+  StyleSheet,
+  Text,
+  ViewStyle,
+} from "react-native";
 
 interface HapticGradientButtonProps {
   href?: string;
@@ -50,7 +56,7 @@ export default function GetDailyRealityCheck({
         end={{ x: 1, y: 1 }}
         style={styles.button}
       >
-        {children}
+        <Text>{children}</Text>
       </LinearGradient>
     </Pressable>
   );
