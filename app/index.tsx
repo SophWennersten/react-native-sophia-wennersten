@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import GetDailyRealityCheck from "../components/haptic-pressable";
+import HapticPressable from "../components/haptic-pressable";
 import RandomPhrases from "../components/homeScreen/random-phrases-homescreen";
 
 export default function HomeScreen() {
@@ -9,9 +9,9 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container} edges={["top"]}>
       <View style={{ flex: 0.4 }} />
       <View>
-        <GetDailyRealityCheck href="/main">
+        <HapticPressable href="/main">
           <RandomPhrases />
-        </GetDailyRealityCheck>
+        </HapticPressable>
       </View>
     </SafeAreaView>
   );

@@ -20,7 +20,7 @@ interface HapticGradientButtonProps {
   [key: string]: any;
 }
 
-export default function GetDailyRealityCheck({
+export default function HapticPressable({
   href,
   children,
   gradientColors = ["rgba(184, 134, 11, 0.05)", "rgba(184, 134, 11, 0.2)"],
