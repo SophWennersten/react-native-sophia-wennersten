@@ -9,7 +9,7 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container} edges={["top"]}>
       <View style={{ flex: 0.4 }} />
       <View>
-        <GetDailyRealityCheck href="/NextScreen">
+        <GetDailyRealityCheck href="/main">
           <RandomPhrases />
         </GetDailyRealityCheck>
       </View>
