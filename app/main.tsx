@@ -1,12 +1,15 @@
-import { StyleSheet, Text, View } from "react-native";
-import GetDailyRealityCheck from "../components/haptic-pressable";
+import { StyleSheet, View } from "react-native";
+import HapticPressable from "../components/haptic-pressable";
+import RandomMessages from "../components/mainScreen/random-messages-mainScreen";
 
 export default function MainScreen() {
   return (
     <View style={styles.container}>
-      <GetDailyRealityCheck>
-        <Text style={{ color: "#fff" }}> BAJS</Text>;
-      </GetDailyRealityCheck>
+      <View style={styles.mainContainer}>
+        <HapticPressable>
+          <RandomMessages />
+        </HapticPressable>
+      </View>
     </View>
   );
 }
@@ -15,5 +18,10 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "transparent",
     alignItems: "center",
+  },
+  mainContainer: {
+    flex: 0.7,
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
