@@ -1,15 +1,17 @@
-import { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { MockedMessages } from "../../data/dailyRealitycheck";
+import useDailyMessageSecureStore from "../../hooks/useDailyMessageSecureStore";
 
 export default function RandomMessages() {
-  const [messagesToUse] = useState(MockedMessages);
-  const pickedMessage =
-    messagesToUse[Math.floor(Math.random() * messagesToUse.length)];
+  const dailyMessage = useDailyMessageSecureStore(
+    "dailyMessage",
+    MockedMessages
+  );
+
   return (
     <View>
-      <Text style={styles.messageText}> {pickedMessage.messages}</Text>
-      <Text style={styles.vibeText}> Vibe: {pickedMessage.vibe}</Text>
+      <Text style={styles.messageText}> {dailyMessage.messages}</Text>
+      <Text style={styles.vibeText}> Vibe: {dailyMessage.vibe}</Text>
     </View>
   );
 }
