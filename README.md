@@ -4,6 +4,7 @@ A native mobile application built using React Native, Expo, and TypeScript that 
 
 ## RN components
 
+StyleSheet
 View
 Text
 Pressable
@@ -14,6 +15,8 @@ ImageBackground
 Font
 SplashScreen
 LinearGradient
+Haptics
+SecureStore
 Navigation : Mandatory
 
 ## Teckstack
