@@ -32,5 +32,6 @@ const styles = StyleSheet.create({
     height: "150%",
     zIndex: 1,
     opacity: 0.3,
+    pointerEvents: "none",
   },
 });
