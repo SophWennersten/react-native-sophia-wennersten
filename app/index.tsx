@@ -16,7 +16,7 @@ export default function HomeScreen() {
         </HapticPressable>
 
         <HapticPressable href="/hp">
-          <Text style={{ color: "#fff" }}>Spells if needed</Text>
+          <Text style={styles.buttonContent}>Spells if needed</Text>
         </HapticPressable>
       </View>
     </View>
@@ -42,5 +42,14 @@ const styles = StyleSheet.create({
     paddingVertical: 20,
     paddingHorizontal: 10,
     borderRadius: 8,
+  },
+  buttonContent: {
+    flex: 0,
+    color: "#B8860B",
+    fontFamily: "GermaniaOne",
+    fontSize: 40,
+    flexWrap: "wrap",
+    textAlign: "center",
+    margin: 10,
   },
 });
