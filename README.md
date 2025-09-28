@@ -37,16 +37,18 @@ https://hp-api.onrender.com/
 2. npm install
 
 G
-[X] 4 RN components
-[X] 4 Expo components
-[X] Using React navigation
-[X] Using Git & github
-[X] Project contains a README.md
-[X] Note used components in README.md
-[] Submited on time
-[] Presentation of project
+
+- [x] 4 RN components
+- [x] 4 Expo components
+- [x] Using React navigation
+- [x] Using Git & github
+- [x] Project contains a README.md
+- [x] Note used components in README.md
+- [] Submited on time
+- [] Presentation of project
 
 VG
-[X] 1 external component of your choosing
-[X] Web-API for fetching data
-[] Preparation for launching app
+
+- [x] 1 external component of your choosing
+- [x] Web-API for fetching data
+- [] Preparation for launching app
