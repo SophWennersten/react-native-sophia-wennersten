@@ -8,20 +8,24 @@ The application also includes functionality to fetch and display spells from the
 
 ## RN components
 
-StyleSheet
-View
-Text
-Pressable
-ImageBackground
+- StyleSheet
+- View
+- Text
+- Pressable
+- ImageBackground
 
 ## Expo SDK’n
 
-Font
-SplashScreen
-LinearGradient
-Haptics
-SecureStore
-Navigation : Mandatory
+- Font
+- SplashScreen
+- LinearGradient
+- Haptics
+- SecureStore
+- Navigation : Mandatory
+
+## Third-party component
+
+- Lottiefile
 
 ## Web-API
 
@@ -29,7 +33,8 @@ https://hp-api.onrender.com/
 
 ## Getting Started
 
-1.
+1. git clone https://github.com/SophWennersten/react-native-sophia-wennersten.git
+2. npm install
 
 G
 [X] 4 RN components
@@ -42,6 +47,6 @@ G
 [] Presentation of project
 
 VG
-[] 1 external component of your choosing
+[X] 1 external component of your choosing
 [X] Web-API for fetching data
 [] Preparation for launching app
