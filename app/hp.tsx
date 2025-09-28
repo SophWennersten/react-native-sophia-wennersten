@@ -13,11 +13,6 @@ export default function App() {
   const insets = useSafeAreaInsets();
   const { data: Spells, loading, error } = useSpells();
 
-  console.log("Loading:", loading);
-  console.log("Error:", error);
-  console.log("Spells data:", Spells);
-  console.log("Spells length:", Spells?.length);
-
   if (loading)
     return (
       <View style={[{ paddingTop: insets.top }]}>
