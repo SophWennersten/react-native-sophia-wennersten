@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import HapticPressable from "../components/haptic-pressable";
 import RandomPhrases from "../components/homeScreen/random-phrases-homescreen";
@@ -7,13 +7,16 @@ import RandomPhrases from "../components/homeScreen/random-phrases-homescreen";
 export default function HomeScreen() {
   const insets = useSafeAreaInsets();
 
-  
   return (
     <View style={[styles.container, { paddingTop: insets.top }]}>
       <View style={{ flex: 0.4 }} />
       <View>
         <HapticPressable href="/main">
           <RandomPhrases />
+        </HapticPressable>
+
+        <HapticPressable href="/hp">
+          <Text style={{ color: "#fff" }}>Spells if needed</Text>
         </HapticPressable>
       </View>
     </View>
