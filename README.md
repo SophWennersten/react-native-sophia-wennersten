@@ -13,6 +13,8 @@ The application also includes functionality to fetch and display spells from the
 - Text
 - Pressable
 - ImageBackground
+- ActivityIndicator
+- ScrollView
 
 ## Expo SDK’n
 
@@ -35,6 +37,7 @@ https://hp-api.onrender.com/
 
 1. git clone https://github.com/SophWennersten/react-native-sophia-wennersten.git
 2. npm install
+3. npx expo start (alt npx expo start --tunnel)
 
 G
 
